@@ -1,57 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
-:root{
-    --bg:#14120b;
-    --font:#FFFFFF;
-    --bg-2:#CCCCCC;
-    --btn:#514f4f;
-    --btn-hover:#1f1f1f;
+
+:root {
+    --bg: #14120b;
+    --font: #FFFFFF;
+    --bg-2: #CCCCCC;
+    --btn: #514f4f;
+    --btn-hover: #1f1f1f;
 }
 
-*{
-margin: 2px;padding: 0;
+* {
+    margin: 2px;
+    padding: 0;
 }
-body{
-    background-color:var(--bg) ;
+
+body {
+    background-color: var(--bg);
     color: var(--font);
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+    word-spacing: -6px;
 }
 
-#nav{
+#nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
-.child-1{
+
+.child-1 {
     display: flex;
     align-items: center;
 }
-.child-2 ul{
+
+.child-2 ul {
     list-style-type: none;
     display: flex;
     gap: 30px;
-    font-size: 13px;
+    font-size: 15px;
 }
-.child-3 button{
-padding: 4px 10px;
-border-radius: 20px;
+
+.child-3 button {
+    padding: 4px 10px;
+    border-radius: 20px;
 }
-.signbtn{
+
+.signbtn {
     background-color: var(--bg);
     color: var(--font);
     border: 0.01px solid var(--btn);
 }
-.downloadbtn{
-background-color: var(--font);
-color: var(--bg);
-border: none;
+
+.downloadbtn {
+    background-color: var(--font);
+    color: var(--bg);
+    border: none;
 }
-.child-2 ul li:hover{
+
+.child-2 ul li:hover {
     color: var(--bg-2);
 }
-.signbtn:hover{
+
+.signbtn:hover {
     background-color: var(--btn-hover);
 }
-.downloadbtn:hover{
+
+.downloadbtn:hover {
     background-color: var(--bg-2);
+}
+
+.intro {
+    margin-top: 115px;
+    padding-left: 9px;
+    width: 680px;
+    font-size: 1.65rem;
+}
+
+.downloadwin {
+    background-color: var(--font);
+    color: var(--bg);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
 }
