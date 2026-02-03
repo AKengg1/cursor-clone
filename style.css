@@ -239,5 +239,37 @@ h5 {
 
 .container p {
     color: #999999;
-
+}
+.test-div{
+    display: flex;
+    justify-content: space-around;
+    margin: 12px;
+}
+.testemonial h2{
+  padding: 180px 5px 15px 12px;
+    font-weight: 100;
+    font-size: 26px;
+}
+.testemonial h3{
+      font-weight: 100;
+    font-size: 16px;
+}
+.testemonial h4{
+    font-weight: 100;
+    font-size: 15px;
+    color: #999999;
+}
+.second{
+    padding: 30px 5px 20px 5px;
+}
+.testemonial-card{
+    line-height: 1.5;
+    background-color: var(--logo);
+    border: 0.01px solid #26231b;
+    border-radius: 8px;
+    height: 500px;
+    width: 350px;
+    padding: 20px;
+    margin: 5px;
+    margin-bottom: 100px;
 }
