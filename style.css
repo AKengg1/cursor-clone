@@ -53,21 +53,20 @@ header {
     font-size: 13px;
 }
 
-.child-3 button {
-    padding: 6px 15px;
-    border-radius: 20px;
-}
-
 .signbtn {
     background-color: var(--bg);
     color: var(--font);
     border: 0.01px solid var(--btn);
+    padding: 6px 15px;
+    border-radius: 20px;
 }
 
 .downloadbtn {
     background-color: var(--font);
     color: var(--bg);
     border: none;
+    padding: 6px 15px;
+    border-radius: 20px;
 }
 
 .child-2 ul li:hover {
@@ -93,9 +92,9 @@ header {
     background-color: var(--font);
     color: var(--bg);
     border: none;
-    padding: 10px 20px;
+    padding: 10px 25px;
     border-radius: 20px;
-    font-size: 15px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     margin-top: 20px;
@@ -309,7 +308,7 @@ h5 {
     color: #999999;
 }
 
-.head {
+.heady {
     width: 200px;
     display: flex;
     align-items: center;
@@ -381,24 +380,30 @@ h5 {
     font-size: 15px;
     color: #999999;
 }
-.stick{
-     display: flex;
+
+.stick {
+    display: flex;
     justify-content: center;
     align-items: flex-start;
 }
+
 .head {
     position: sticky;
-    top: 0px;
-    margin-top: 50px;
-width: 25%;
-height: 120px;}
-.head h2{
+    top: 50px;
+    margin-top: 100px;
+    width: 25%;
+    height: 120px;
+}
+
+.head h2 {
     font-weight: 100;
     font-size: 16px;
 }
-.high{
+
+.high {
     width: 72%;
 }
+
 .highlights li:hover {
     background-color: #333330;
 }
@@ -406,6 +411,47 @@ height: 120px;}
 .forth {
     margin: 15px 10px;
 }
-.final{
-    height: 500px;
+
+.final {
+    font-size: 35px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    background-color: var(--logo);
+}
+
+.lead {
+    font-weight: 100;
+    font-size: 13px;
+    color: #999999;
+}
+
+.last {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 10px;
+    padding-top: 80px;
+}
+
+footer li {
+    font-size: 13px;
+    list-style: none;
+    padding: 6px;
+}
+
+.copyright {
+    /* margin-top: 100px; */
+    margin: 60px 10px;
+}
+
+strong {
+    color: #999999;
+    font-weight: 100;
 }
