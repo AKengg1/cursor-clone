@@ -1,12 +1,10 @@
-
-
 :root {
     --bg: #14120b;
     --font: #FFFFFF;
     --bg-2: #CCCCCC;
     --btn: #514f4f;
     --btn-hover: #1f1f1f;
-    --logo:#1b1913;
+    --logo: #1b1913;
 }
 
 * {
@@ -19,20 +17,23 @@ body {
     color: var(--font);
     font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
-h1{
+
+h1 {
     font-weight: 100;
 }
-header{
-   position: fixed;
+
+header {
+    position: fixed;
     top: 0;
     left: 0;
-    z-index: 10; 
+    z-index: 10;
     background-color: var(--bg);
     color: var(--font);
     width: 100%;
     height: 45px;
     padding-top: 6px;
 }
+
 #nav {
     display: flex;
     justify-content: space-evenly;
@@ -83,9 +84,9 @@ header{
 
 .intro {
     margin-top: 115px;
-    padding-left: 9px;
+    margin-left: 24px;
     width: 680px;
-    font-size: 1rem;
+    font-size: 15px;
 }
 
 .downloadwin {
@@ -99,25 +100,31 @@ header{
     align-items: center;
     margin-top: 20px;
 }
-.downloadwin:hover{
-     background-color: var(--bg-2);
+
+.downloadwin:hover {
+    background-color: var(--bg-2);
 }
-.screenshot1{
+
+.screenshot1 {
     margin: 60px 24px;
 }
-.trustbar{
-   text-align: center;
-   font-size: 14px;
+
+.trustbar {
+    text-align: center;
+    font-size: 14px;
 }
-.trustbar p{
+
+.trustbar p {
     margin-bottom: 20px;
 }
-.trustbar ul{
+
+.trustbar ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
 }
-.trustbar ul li{
+
+.trustbar ul li {
     background-color: var(--logo);
     width: 140px;
     height: 100px;
@@ -125,10 +132,54 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 0.01px solid #26231b;
 }
-.trustbar ul li img{
- width: 90px;
+
+.trustbar ul li img {
+    width: 90px;
 }
-.screenshot2{
-      margin: 90px 40px;
+
+.window {
+    display: flex;
+    align-items: center;
+    margin: 60px 35px;
+    border: 0.01px solid #26231b;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: var(--logo);
+    width: 92%;
+}
+
+.window h3 {
+    color: #999999;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.window h2 {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.redone {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    margin-top: 15px;
+    color: #f54e00;
+    font-size: 16px;
+}
+
+.redone:hover {
+    color: #f54e00bf;
+}
+
+.window2 div {
+    margin-left: 40px;
+}
+
+.window3 h3 {
+    font-size: 22px;
 }
