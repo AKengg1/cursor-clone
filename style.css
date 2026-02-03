@@ -343,17 +343,14 @@ h5 {
     background-color: var(--logo);
     width: 100%;
     margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    /* display: flex;
+    justify-content: center; */
 }
-.highlights div{
-    position: absolute;
-}
+
 .highlights ul {
     margin-top: 100px;
-    margin-bottom: 85px;
+    /* margin-bottom: 85px; */
+    padding-bottom: 85px;
 }
 
 .highlights li {
@@ -384,16 +381,31 @@ h5 {
     font-size: 15px;
     color: #999999;
 }
-
-.highlights > div > p {
-    position: sticky;
-    top: 20px;
+.stick{
+     display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
-
+.head {
+    position: sticky;
+    top: 0px;
+    margin-top: 50px;
+width: 25%;
+height: 120px;}
+.head h2{
+    font-weight: 100;
+    font-size: 16px;
+}
+.high{
+    width: 72%;
+}
 .highlights li:hover {
     background-color: #333330;
 }
 
 .forth {
     margin: 15px 10px;
+}
+.final{
+    height: 500px;
 }
