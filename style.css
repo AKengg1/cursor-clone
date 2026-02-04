@@ -443,15 +443,56 @@ footer {
 footer li {
     font-size: 13px;
     list-style: none;
-    padding: 6px;
+    padding: 10px;
 }
 
 .copyright {
-    /* margin-top: 100px; */
-    margin: 60px 10px;
+    padding: 25px 5px;
+    margin: 60px 10px 0px 10px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
 }
 
 strong {
     color: #999999;
     font-weight: 100;
+}
+.toggle{
+     background-color: #252424;
+    color: var(--font);
+    /* border: 0.01px solid var(--btn); */
+    padding: 0.3px;
+    border-radius: 20px;
+}
+.theme{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    gap: 20px;
+}
+.toggle button{
+    padding: 2px 6px;
+    background: none;
+    border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.select{
+padding: 6px 15px;
+    border-radius: 20px;
+    background-color: #252424;
+}
+.select select{
+    color: white;
+      padding: 2px 6px;
+    background: none;
+    border: none;
+  cursor: pointer;
+  background-color: #252424;
+}
+.dark{
+  background-color: #3b3a3a;
+    border-radius: 20px;
+padding: 6px 12px;
 }
