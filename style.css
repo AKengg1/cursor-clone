@@ -302,7 +302,7 @@ h5 {
     height: 80px;
     border-radius: 8px;
     padding: 20px;
-    border: 0.01px solid #26231b;
+    border: 0.01px solid #26231b;margin: 5px;
 }
 
 .changelog ul li p,
@@ -504,10 +504,12 @@ strong {
 }
 
 .arrow {
-opacity: 0;transition: opacity 0.1s ease-out;
+    opacity: 0;
+    transition: opacity 0.1s ease-out;
 }
 
 footer li:hover {
     .arrow {
-opacity: 1;    }
+        opacity: 1;
+    }
 }
